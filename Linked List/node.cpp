@@ -1,11 +1,11 @@
 template<typename T>
 
-class node{
+class Node{
 	public:
 	T data;
-	node * next;
+	Node * next;
 	
-	node(T data)
+	Node(T data)
 	{
 		this->data=data;
 		next=NULL;
